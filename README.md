@@ -72,9 +72,9 @@ You can configure the specific Google AI models used by the agent for different 
 For example, you can add these to your `.env` file in the `backend` directory:
 
 ```
-QUERY_GENERATOR_MODEL=gemini-1.5-flash
-REFLECTION_MODEL=gemini-1.5-pro
-ANSWER_MODEL=gemini-1.5-pro
+QUERY_GENERATOR_MODEL=gemini-2.0-flash
+REFLECTION_MODEL=gemini-2.5-flash-preview-04-17
+ANSWER_MODEL=gemini-2.5-pro-preview-05-06
 ```
 
 If these variables are not set, the agent will use default models specified in the configuration.
